@@ -12,15 +12,13 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
-      
+    <>      
       <Hero />
       <div className="px-[20px] lg:container lg:px-20 mx-auto">
         <Features />
         <Faq />
         <Pricing />
-        <Cta />
-        
+        <Cta />        
       </div>
     </>
   );

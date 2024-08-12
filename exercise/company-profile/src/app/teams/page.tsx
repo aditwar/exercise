@@ -1,4 +1,3 @@
-
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,8 +10,7 @@ export default function TeamPage() {
         <>
             <section className="w-full pt-[180px]">
                 <div className="max-w-7xl mx-auto lg:px-10">
-                    <h1 className="text-center text-6xl text-black font-light pb-10">Meet Our <span className="font-bold text-blue-600">Team</span>
-                    </h1>
+                    <h1 className="text-center text-6xl text-black font-light pb-10">Meet Our <span className="font-bold text-blue-600">Team</span></h1>
                     <p className="text-center text-4xl font-bold pb-6 text-red-500">Our Leader</p>
                     <div className="flex flex-wrap justify-center gap-3 lg:gap-5">
                         <div className="bg-slate-700 rounded-md w-48 p-5">
