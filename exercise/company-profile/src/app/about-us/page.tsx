@@ -21,7 +21,7 @@ export default function AboutUsPage() {
                             <p className="pb-5 font-bold">Driven by purpose</p>
                             <p className="pb-5 text-sm w-full justify-center">Founded in 2012, Aditya Co. Ltd was born out of a simple yet powerful idea recognized the growing dependence on websites for business operations and customer engagement.</p>
                             <p className="pb-5 font-bold">Our Vision and Mission</p>
-                            <p className="pb-5 text-sm w-full">Vission: To be the leading provider of innovative and reliable monitoring solutions, empowering businesses to operate with confidence, safety, and efficiency in an ever-evolving world</p>
+                            <p className="pb-5 text-sm w-full">Vision: To be the leading provider of innovative and reliable monitoring solutions, empowering businesses to operate with confidence, safety, and efficiency in an ever-evolving world</p>
                             <p className="pb-5 text-sm w-full">Mission: To deliver reliable monitoring solutions that enhance security, performance, and operational integrity, enabling our clients to focus on their core business with confidence.</p>
                         </div>
                     </div>
@@ -58,7 +58,10 @@ export default function AboutUsPage() {
                     </div>
                 </div>
             </section>
-            <Blog />
+            <section className='max-w-7xl mx-auto px-10 flex flex-col items-center'>
+                <h1 className='pt-[50px] m-5 tracking-[2px] text-black font-bold w-[400px] lg:w-[700px] text-2xl lg:text-4xl text-center'>Our Recent Activity.</h1>
+                <Blog />
+            </section>
         </>
     )
 }
