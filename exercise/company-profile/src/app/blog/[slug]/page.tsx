@@ -3,11 +3,11 @@ import Wrapper from "@/components/wrapper"
 import { formatDate } from "@/helper/formatDate";
 import { getBlogSlug, getBlogs } from "@/lib/blog"
 import { IBlogs } from "@/type/blog"
-import { Options, documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import { Options, documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS } from '@contentful/rich-text-types';
 import Link from "next/link";
 
-export const revalidate = 3600
+export const revalidate = 3600;
 
 export const generateStaticParams = async () => {
     const users = await getBlogs()
@@ -27,7 +27,8 @@ export async function generateMetadata({ params }: { params: { slug: string }}) 
         description: blog.fields.title,
         authors: blog.fields.author.fields.name,
         openGraph: {
-            images: [`https:${blog.fields.image.fields.file.url}`, `https:${blog.fields.author.fields.avatar.fields.file.url}`],
+            images: [   `https:${blog.fields.image.fields.file.url}`,
+                        `https:${blog.fields.author.fields.avatar.fields.file.url}`],
         },
     }
 }

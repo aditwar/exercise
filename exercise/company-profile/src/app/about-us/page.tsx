@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Metadata } from "next";
-import Blogger from '@/components/Blogger';
+import Blog from '../blog/page';
 
 export const metadata: Metadata = {
     title: "Aditya | About Us",
@@ -58,7 +58,7 @@ export default function AboutUsPage() {
                     </div>
                 </div>
             </section>
-            <Blogger />
+            <Blog />
         </>
     )
 }
