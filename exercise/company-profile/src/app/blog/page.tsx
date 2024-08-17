@@ -3,7 +3,7 @@ import Wrapper from "@/components/wrapper";
 import { getBlogs } from "@/lib/blog";
 import { IBlogs } from "@/type/blog";
 
-export default async function Blog() {
+export default async function Bloger() {
   const blogs = await getBlogs()
   return (
     <Wrapper>

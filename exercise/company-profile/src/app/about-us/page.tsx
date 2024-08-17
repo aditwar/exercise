@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Metadata } from "next";
-import Blog from '../blog/page';
+import Bloger from '../blog/page';
 
 export const metadata: Metadata = {
     title: "Aditya | About Us",
@@ -60,7 +60,7 @@ export default function AboutUsPage() {
             </section>
             <section className='max-w-7xl mx-auto px-10 flex flex-col items-center'>
                 <h1 className='pt-[50px] m-5 tracking-[2px] text-black font-bold w-[400px] lg:w-[700px] text-2xl lg:text-4xl text-center'>Our Recent Activity.</h1>
-                <Blog />
+                <Bloger />
             </section>
         </>
     )
