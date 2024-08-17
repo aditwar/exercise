@@ -51,7 +51,7 @@ export default async function BlogDetail({ params }: { params: { slug: string }}
     
     return (
         <Wrapper>
-            <div className="flex">
+            <div className="flex pt-[150px]">
                 <div className="flex-1 sticky max-md:hidden top-[100px] h-full">
                     <Link href={`/about-us`} className="flex items-center gap-2">
                         <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
