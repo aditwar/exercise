@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { useCopyToClipboard } from "usehooks-ts";
 
-
 export default function CopyButton({ slug, url }: { slug: string, url: string }) {
     const [value, copy] = useCopyToClipboard();
     const [copied, setCopied] = useState(false)
