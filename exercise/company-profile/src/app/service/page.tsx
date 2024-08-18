@@ -13,7 +13,7 @@ export default function ServicePage() {
         <>
             <section className="w-full  lg:bg-[#0C0C0C]">
                 <div className="mx-auto bg-[#000000] lg:-z-0 -z-10">
-                    <div><Image src="/server.jpg" alt="me" width="1400" height="500" decoding="async" data-nimg="1" className='w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[900px] object-cover opacity-80 ' /></div>
+                    <div><Image src="/server.jpg" alt="me" width="2466" height="2466" decoding="async" data-nimg="1" className='w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] 2xl:h-[900px] object-cover opacity-80 ' /></div>
                     <div className="absolute top-44 px-10 md:top-[250px] lg:top-80 pl-10 lg:px-[280px] w-full">
                         <h2 className="text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_black]">Uptime Guaranteed</h2>
                         <h1 className="text-2xl sm:text-5xl lg:text-7xl lg:w-[605px] lg:text-left font-bold text-white text-center drop-shadow-[1px_1px_1px_black]">Peace of Mind Delivered</h1>
@@ -27,21 +27,21 @@ export default function ServicePage() {
                     </div>
                 </div>
             </section>
-            <section className="w-full lg:pt-[50px] sm:pt-[40px] pt-[20px]">
-                <div className="flex flex-wrap justify-center items-center px-[100px] lg:px-[150px] xl:px-[20px] xl:space-x-10">
+            <section className="flex justify-center items-center w-full px-[26px] lg:px-[200px] xl:px-[0px] pt-[60px]">
+                <div className="flex flex-wrap justify-center items-center xl:space-x-10">
                     <div className="w-full xl:w-[500px]">
                         <h1 className="text-black font-semibold text-center text-2xl pb-10 lg:text-5xl lg:text-left">Site Guard Pro: The flagship product for your website needs</h1>
-                        <p className="text-sm text-center text-black pb-6 lg:pb-14 lg:text-base lg:text-left">Designed to offer comprehensive website monitoring and protection for businesses of all sizes. With a focus on uptime, security, and performance, SiteGuard Pro provides real-time monitoring, detailed analytics, and instant alerts, ensuring your website remains operational, secure, and optimized at all times</p>
+                        <p className="text-sm text-center text-black pb-3 lg:pb-5 lg:text-base lg:text-left">Designed to offer comprehensive website monitoring and protection for businesses of all sizes. With a focus on uptime, security, and performance, SiteGuard Pro provides real-time monitoring, detailed analytics, and instant alerts, ensuring your website remains operational, secure, and optimized at all times</p>
                         <div className="lg:flex hidden gap-3">
                             <button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200">Order Now</button><button type="button" className=" text-black font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full">$100</button>
                         </div>
                     </div>
                     <div className="justify-center">
-                        <Image src="/office.jpg" alt="me" width="50" height="50" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] lg:h-[470px] lg:rounded-2xl' />
+                        <Image src="/office.jpg" alt="me" width="1000" height="1000" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] rounded-2xl' />
                     </div>
                 </div>
             </section>
-            <section className="flex flex-wrap justify-center items-center w-screen lg:pt-16">
+            <section className="w-full px-[20px] lg:container lg:px-20 mx-auto">
                 <Pricing/>
             </section>
         </>

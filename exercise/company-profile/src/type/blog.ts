@@ -1,7 +1,6 @@
 export interface IBlogs { 
     sys: { id:  number | null | undefined; }; 
     fields: {
-        content: any;
         title: string;  
         slug: string;
         image: { fields: 

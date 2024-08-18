@@ -34,9 +34,7 @@ export async function generateMetadata({ params }: { params: { slug: string }}) 
 
 export default async function BlogDetail({ params }: { params: { slug: string }}) {
     const blog = await getBlogSlug(params.slug)
-    console.log(blog);
     
-    //! OPTION ini disesuaikan dengan STYLING
     const options: Options = {
         renderNode: {
             [BLOCKS.HEADING_1]: (_node, children) => <h1 className="my-[2.5px] md:text-3xl sm:text-2xl text-xl">{children}</h1>,
@@ -72,8 +70,6 @@ export default async function BlogDetail({ params }: { params: { slug: string }}
                     </div>
                     <ShareButton slug={blog.fields.slug} className="hidden max-md:block" />
                     <img className="h-[350px] max-sm:h-[200px] max-md:h-[300px] w-full my-5 shadow" src={`https:${blog.fields.image.fields.file.url}`} alt={blog.fields.title} />
-
-                    {/* //! Ini untuk merender, yg parameter options itu seperti ATAS */}
                     {documentToReactComponents(blog.fields.content, options)}
                 </div>
             </div>
