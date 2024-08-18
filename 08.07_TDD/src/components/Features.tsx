@@ -8,8 +8,6 @@ export function Features() {
         <div className="sm:w-1/2 lg:pt-[56px] lg:pr-[56px]">
           <h3 className="font-medium text-[#0085FF] lg:text-[18px] ">Sales Monitoring</h3>
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">Best for your Sales Monitoring</h1>
-          <div className="">
-            <Image src="/feature2.svg" alt="hero image" width="300" height="200" className="pt-[24px] hidden"/></div>
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">Elevate your workflow and stay ahead of the curve with our game-changing feature. Imagine having a bird&apos;s eye view of your entire operation, effortlessly at your fingertips. Our customizable dashboard transforms how you manage tasks, offering unprecedented clarity and control. Discover a new level of efficiency and insight that propels your productivity to new heights.</p>
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
             <li className="flex items-center gap-x-2 text-[#36485C]">
@@ -53,12 +51,6 @@ export function Features() {
           <h1 className="pt-[12px] text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
             Stay in Touch with Your Customers
           </h1>
-          <Image            
-            alt="feature 1 image"
-            src="/feature2.svg"            
-            width="100"
-            height="200"
-            className="pt-[24px] hidden " />
           <p className="py-[24px] text-[#36485C] lg:text-[18px]">Engage and connect with your customers like never before. With our cutting-edge website monitoring tools, youll gain invaluable insights into customer behavior, preferences, and interactions. Build lasting relationships that set you apart from the competition. Discover the power of truly understanding your customers, and watch your business thrive.</p>
           <ul className="flex flex-col gap-y-3 lg:text-[18px]">
             <li className="flex items-center gap-x-2 text-[#36485C]">
