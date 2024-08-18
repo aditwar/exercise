@@ -18,7 +18,7 @@ describe('<CardBlog />', () => {
         cy.get('[data-cy="blog-title"]')
             .should('exist') // ini bener kerender nda
             .and('be.visible')
-            .contains("SUKSES") // ini bener tulisannya itu?
+            .contains("PASTI SUKSES") // ini bener tulisannya itu?
 
     })
 })

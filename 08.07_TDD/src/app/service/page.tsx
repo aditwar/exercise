@@ -37,7 +37,7 @@ export default function ServicePage() {
                         </div>
                     </div>
                     <div className="justify-center">
-                        <Image src="/office.jpg" alt="me" width="50" height="50" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] lg:h-[470px] lg:rounded-2xl' />
+                        <Image src="/office.jpg" alt="me" width="1000" height="1000" decoding="async" data-nimg="1" className='hidden xl:flex object-cover w-full h-[300px] lg:h-[470px] lg:rounded-2xl' />
                     </div>
                 </div>
             </section>
