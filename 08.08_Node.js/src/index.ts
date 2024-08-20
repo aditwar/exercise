@@ -12,6 +12,6 @@ app.get('/api', (req: Request, res: Response) => {
 })
 
 app.listen(PORT, () => {
-    console.log('[API] : http://localhost:${PORT}/api');
+    console.log(`[API] : http://localhost:${PORT}/api`);
     
 })
