@@ -19,6 +19,9 @@
     OPEN CLOSE TERMINAL     => CTRL   + J
     CLEAR                   => CTRL   + K
 
+    /// EXTENTION PRETTIER
+    UBAH KE DEFAULT         => CTRL   + SHIFT   + P     + "Format Document" > "PRETTIER"
+
     /// EXTENTION BETTER COMMENTS
     /**
      * GUNAKAN SEPERTI /** UNTUK MEMULAI
