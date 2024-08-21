@@ -22,6 +22,8 @@
     /// EXTENTION PRETTIER
     UBAH KE DEFAULT         => CTRL   + SHIFT   + P     + "Format Document" > "PRETTIER"
 
+    BIAR RAPIHH             => ALT + SHIFT + f
+
     /// EXTENTION BETTER COMMENTS
     /**
      * GUNAKAN SEPERTI /** UNTUK MEMULAI
