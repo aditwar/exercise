@@ -1,4 +1,5 @@
 import express, { Application, Request, Response } from 'express'
+import router from './router'
 
 const PORT: number = 8000
 
@@ -10,6 +11,8 @@ app.get('/api', (req: Request, res: Response) => {
         msg: 'Welcome to my API'
     })
 })
+
+app.use('/api', router)
 
 app.listen(PORT, () => {
     console.log(`[API] : http://localhost:${PORT}/api`);
