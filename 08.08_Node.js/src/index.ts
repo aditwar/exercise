@@ -1,8 +1,11 @@
+// express ini merupakan tipe data nya apa
 import express, { Application, Request, Response } from 'express';
 import router from './router';
 
+// ini untuk menentukan PORT berapa
 const PORT: number = 8000
 
+// ini untuk mengenali express nya
 const app: Application = express()
 
 // ini yg menjadi acuan api dapat dari mana
