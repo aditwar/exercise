@@ -1,5 +1,5 @@
-import express, { Application, Request, Response } from 'express'
-import router from './router'
+import express, { Application, Request, Response } from 'express';
+import router from './router';
 
 const PORT: number = 8000
 
