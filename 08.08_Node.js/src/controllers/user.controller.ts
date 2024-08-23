@@ -1,3 +1,5 @@
+// INI MERUPAKAN ACTION nya mau ngapain
+
 import { Request, Response } from 'express';
 import fs from 'fs';
 
@@ -16,6 +18,7 @@ export const getUser = (req: Request, res: Response) => {
     // cara aksesnya dengan Parameter fs file sistem yg membaca data url itu dengan option utf-8
     const users: IUser[] = JSON.parse(fs.readFileSync('./src/data/users.json', 'utf-8'))
 
+    // setelah membaca data users.json itu akan mengirim respon 200
     // ini untuk memberi response dengan status 200 dan dikirim status ok dengan data users
     res.status(200).send({
         status: "ok",

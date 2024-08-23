@@ -5,6 +5,8 @@ const PORT: number = 8000
 
 const app: Application = express()
 
+// ini yg menjadi acuan api dapat dari mana
+// '/api' namanya ENDPOIN yg dipisah2kan mjd bbrp file pada masing2 folder, ini merupakan ROUTER 
 app.get('/api', (req: Request, res: Response) => {
     res.status(200).send({
         status: 'ok',
