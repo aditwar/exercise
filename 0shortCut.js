@@ -22,7 +22,7 @@
     /// EXTENTION PRETTIER
     UBAH KE DEFAULT         => CTRL   + SHIFT   + P     + "Format Document" > "PRETTIER"
 
-    BIAR RAPIHH             => ALT + SHIFT + f
+    BIAR RAPIHH             => ALT + SHIFT + F
 
     /// EXTENTION BETTER COMMENTS
     /**
@@ -33,6 +33,8 @@
     
     /// GITHUB BRANCH
     /**
+     * MENAMBAH BRANCH      => SHIFT + CTRL + P
+     * 
      * MENAMBAH BRANCH      => git checkout -b namanya
 */
 
