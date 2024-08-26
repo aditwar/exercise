@@ -30,4 +30,9 @@
      * ! MEMBERI WARNA MERAH
      * ? MEMBERI WARNA BIRU
      * todo: MEMBERI STEPS BY STEPS
-     */
+    
+    /// GITHUB BRANCH
+    /**
+     * MENAMBAH BRANCH      => git checkout -b namanya
+*/
+
