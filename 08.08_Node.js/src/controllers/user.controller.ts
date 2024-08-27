@@ -11,6 +11,7 @@ interface IUser {
     age: number;
 }
 
+// ini actionnya request users IUser, dan ngirim response sebagai status
 // parameter req itu tipe datanya Request dari express, dan res tipe datanya Response
 export const getUser = (req: Request, res: Response) => {
 
@@ -25,3 +26,4 @@ export const getUser = (req: Request, res: Response) => {
         users
     })
 }
+
