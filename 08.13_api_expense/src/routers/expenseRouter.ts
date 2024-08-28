@@ -10,6 +10,7 @@ expenseRouter.post('/', createExpense)
 // /:id itu siapa aja yg mw diedit, apa aja yg mw diedit lwt body (postman)
 expenseRouter.patch('/:id', editExpense)
 
+// ini sama seperti edit, tp pakai deleteExpense
 expenseRouter.delete('/:id', deleteExpense)
 
 export { expenseRouter }
