@@ -1,0 +1,23 @@
+// CARA DEPLOY VERCEL
+
+1. UPLOAD TO GITHUB
+
+2. Open Link
+    vercel.com
+
+3. Masuk Akun
+
+4. Import Project > Import
+
+5. Install GitHub di website itu
+
+6. Login to GitHub
+
+7. Pilih Project yg mana
+
+8. Beri nama Project > Pilih framework preset (Vite) > DEPLOY
+
+9. JIKA GAMBAR GAGAL DIMUAT
+    A. Ketik di file yg ada gambarnya (import manual)
+
+        import img from "../../assets/namafile.jpg"

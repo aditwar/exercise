@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>Purwadhika</title>
+    <link rel="stylesheet" href="2style.css"><!-- LINK EKSTERNAL CSS -->
+</head>
+<body>
+    <p>Paragraf biasa</p>
+    <hr /> <!-- membuat GARIS -->
+    ini baris 1 <br /> <!-- membuat ENTER -->
+    ini baris 2 <br /> <!-- JENIS INLINE = MEMBUTUHKAN <br /> biar ke ENTER -->
+    <em>Emphasize => Italic</em><br />
+    <mark>Marker => Stabilo</mark><br />
+    <del>Deleted => Coret</del><br />
+    <ins>Inserted => Garis Bawah</ins>
+    <sub>Subscript</sub>
+    <sup>Superscript</sup><br />
+
+    <ul> <!-- UNORDERED LIST-->
+        <li>No 1</li>
+        <li>No 2</li>
+        <li>No 3</li>
+    </ul>
+
+    <ol> <!-- ORDERED LIST-->
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+
+    <table rules="all" border="2"> <!-- MEMBERI BORDER TABEL -->
+        <tr>
+            <th>TABEL HEAD</th>
+            <th>BARIS PERTAMA</th>
+        </tr>
+
+        <tr>
+            <td>RW 2 COL 1</td>
+            <td>RW 2 COL 2</td>
+            <td rowspan="2">ROWSPAN</td>
+        </tr>
+
+        <tr>
+            <td>rw 3 col 1</td>
+            <td>rw 3 col 2</td>            
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <center>COLSPAN</center>
+            </td>
+        </tr>
+    </table>
+
+    <a href="https://www.google.com" target="_blank">Google</a><br /><!-- target = open new tab -->
+    <img src="./img/kucing.jpg" alt="image-kucing"><br /> <!-- RELATIVE LINK -->
+
+    <figure>
+        <img src="E:/Course/Exercise/07.15/img/kucing.jpg" alt="image-kucing">
+        <figcaption>Ini Image Kucing</figcaption> <!-- Memberi keterangan gambar -->
+    </figure>
+
+    <input type="text"><br />
+    <input type="password"><br /><!-- INPUT HIDDEN -->
+    <input type="checkbox"><br /><!-- CHECKBOX KOTAK -->
+    <input type="radio"><br /><!-- CHECKBOX LINGKARAN -->
+    <input type="number"><br />
+    <input type="file"><br />
+    <input type="search"><br />
+    <textarea rows="3" cols="64"></textarea><br /><!-- Memberi text input -->
+    <button>Ok</button><button>Apply</button><br />
+
+    <p>Apa warnamu?</p>
+    <select> <!-- Memberi pilihan -->
+        <option>MERAH</option>
+        <option>KUNING</option>
+        <option>HITAU</option>
+    </select>
+
+    <fieldset><!-- MEMBERI RUANG -->
+        <legend>Data Diri</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text">
+        </p>
+        <p>
+            <label>Usia:</label>
+            <input type="text">
+        </p>
+    </fieldset>
+
+    <!-- BLOCK (Otomatis memberi ENTER) TANPA <br /> -->
+    <!-- SELECTOR INLINE CSS > ID > CLASS jadi paling prioritas itu INLINE CSS -->
+    <div class="class">DIVISION</div><!-- CLASS => .class -->
+    <div id="id">DIVISION</div><!-- ID => #id -->
+    <div class="backgroundImage">DIVISION</div>
+
+    <div style="color:red; font-weight: 1000;">SEMANGAT</div><!-- CSS INLINE -->
+    <div>
+        <style>
+        h1 { 
+            color: blue;}
+        </style> <!-- CSS INTERNAL -->
+        <h1 class="hover">PASTI SUKSES</h1>
+    </div>
+
+    <button class="relative">
+        RELATIVE
+        <span class="absolute">ABSOLUTE</span>
+    </button>
+
+    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid tempore numquam nesciunt sapiente possimus blanditiis, modi nulla animi deleniti nobis quibusdam, dolor a rem ad omnis sequi, dicta nisi ea quam repudiandae. Blanditiis temporibus ipsam est ratione optio. Illum aperiam quas autem nam, assumenda aspernatur voluptates natus commodi est molestias id repellat vel exercitationem quibusdam minus quam. Asperiores exercitationem incidunt ex magni soluta est distinctio aspernatur totam sint necessitatibus provident nisi quis consequatur corporis optio minima tempore aperiam sed accusamus accusantium, voluptatum ipsa. Deserunt laudantium ut perferendis enim rerum dolorum eos tenetur sed autem similique! Sint, molestiae quis! Tempore, aliquid!</p>
+
+    
+</body>
+</html>

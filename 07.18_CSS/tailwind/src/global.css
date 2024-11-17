@@ -1,0 +1,10 @@
+/* INI JANGAN LUPA untuk TAILWIND */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ini caranya sama seperti CSS biasa */
+body {
+    background-color: aqua;
+}

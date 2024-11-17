@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #content div {
+            display: flex; /* ini untuk mengAKTIFkan flex */
+            justify-content: center; /* ini center kiri kanan */
+            align-items: center; /* ini center atas bawah */
+            background-color: orange;
+            height: 100px;
+            min-width: 200px; /* ini biar ada min... jdi klw dibawah itu maka item akan oto pindah ke bawah */
+            flex: 1; /* ini jika 1 baris, item nya akan memenuhi smua... jdi jika ada 2 item maka pembagiannya rata */
+
+        }
+        #content {
+            display: flex;
+            flex-wrap: wrap; /* jika nda cukup oto ke bawah (menyesuaikan ukuran layar) */
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="kotak1">1</div>
+        <div class="kotak2">2</div>
+        <div class="kotak3">3</div>
+        <div class="kotak4">4</div>
+        <div class="kotak5">5</div>
+    </div>
+</body>
+</html>

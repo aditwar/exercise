@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind Component;
+@tailwind utilities;
+
+#root {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,52 @@
+{
+  "user": [
+    {
+      "id": "11c8",
+      "name": "Anton",
+      "email": "anton@gmail",
+      "age": 25
+    },
+    {
+      "id": "d6d2",
+      "name": "Bayu",
+      "email": "bayu@gmail",
+      "age": 30
+    },
+    {
+      "id": "8320",
+      "name": "asdfasdf",
+      "email": "adsf@gmail",
+      "age": 4
+    },
+    {
+      "id": "7d9a",
+      "name": "adit",
+      "email": "adit@gmail.com",
+      "age": 8
+    },
+    {
+      "id": "8c9d",
+      "name": "Emil",
+      "email": "emil@gmail",
+      "age": 30
+    },
+    {
+      "id": "a0be",
+      "name": "doyo",
+      "email": "doyo@gmail",
+      "age": 9
+    },
+    {
+      "id": "bf02",
+      "name": "wiwik",
+      "email": "wiwi@gmail.com",
+      "age": 6
+    },
+    {
+      "id": "348e",
+      "name": "riski",
+      "email": "riski@gmail",
+      "age": 10
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+        function updateText() {
+            const element = document.getElementById('myElement')
+            element.innerText = "Update Text"
+            element.style.color = 'red'
+            // element.innerHTML = "<p>this is new pharagrap</p>"
+        }
+    </script>
+</head>
+<body>
+    <h1 id="myElement">Original Text</h1>
+    <button onclick="updateText()">Update Text</button><!-- jadi saat onclick maka menjalankan fungsinya -->
+    <script src="script.js"></script><!-- ini untuk ngarahin ke EKSTERNAL -->
+</body>
+</html>
