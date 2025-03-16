@@ -15,23 +15,23 @@
     SEARCH FILE             => CTRL   + SHIFT   + .
     AUTO FIX                => SHIFT  + ALT + ,
 
-    /// TERMINAL    
+    ///! TERMINAL    
     OPEN CLOSE TERMINAL     => CTRL   + J
     CLEAR                   => CTRL   + K
 
-    /// EXTENTION PRETTIER
+    ///! EXTENTION PRETTIER
     UBAH KE DEFAULT         => CTRL   + SHIFT   + P     + "Format Document" > "PRETTIER"
 
     BIAR RAPIHH             => ALT + SHIFT + F
 
-    /// EXTENTION BETTER COMMENTS
+    ///! EXTENTION BETTER COMMENTS
     /**
      * GUNAKAN SEPERTI /** UNTUK MEMULAI
      * ! MEMBERI WARNA MERAH
      * ? MEMBERI WARNA BIRU
      * todo: MEMBERI STEPS BY STEPS
     
-    /// GITHUB BRANCH
+    ///! GITHUB BRANCH
     /**
      * MENAMBAH BRANCH      => SHIFT + CTRL + P
      * 

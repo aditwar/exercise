@@ -1,18 +1,18 @@
-// TYPE SCRIPT sama seperti JAVASCRIPT tapi menggunakan tipe data dan itu tidak dapat diubah tipe datanya
+ // TYPE SCRIPT sama seperti JAVASCRIPT tapi menggunakan tipe data dan itu tidak dapat diubah tipe datanya
 let num: number = 10        //! variabel yg sudah di DIVINE TIPE DATA nya (: number)
 let str: string = "John"
 
 // ARRAY
 const arrNum: number[] = [1, 2, 3, 4, 5] // jika dimasukkin STRING pasti ERROR
 
-//OBJ = interface dan type itu sama tapi ada kelebihan kekurangan
+//OBJ = interface dan type itu sama tapi ada kelebihan kekurangan, tp TIDAK PAKAI "=" 
 interface IUser {
     name: string;   //! ini wajib di isi
     email: string;  //! ini wajib di isi
-    age?: number //? "?" untuk memberi tanda OPTIONAL jdi tidak diisi tidak apa2
+    age?: number //? "?" untuk memberi tanda OPTIONAL jdi TIDAK HARUS ada
 }
 
-// OBJ type menggunakan "="
+// OBJ type HARUS menggunakan "="
 type User = {
     name: string;
     email: string;
