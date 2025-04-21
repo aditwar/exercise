@@ -1,5 +1,4 @@
 import { IUser } from "@/app/type";
-import Image from "next/image";
 
 // ini biar saat FETCH DATA yang tampil DETAIL USER
 async function getData(id: string) {
@@ -44,7 +43,6 @@ export default async function UserDetailPage({ params }: { params: { id: string 
             <p>Name: {data.name}</p>
             <p>Email: {data.email}</p>
             <p>Age: {data.age}</p>
-            <Image />
         </div>
     )
 }
