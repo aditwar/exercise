@@ -1,3 +1,5 @@
+//! HANYA TERHUBUNG KE MYSQL maupun POSTMAN DAN DATABASE SUDAH DI SERVER ONLINE MYSQL
+
 import { Request, Response } from 'express';
 import db from '../config/db';
 import { IEvent } from '../type';

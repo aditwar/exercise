@@ -38,5 +38,13 @@
     "type": "expense",
     "category": "transport",
     "date": "2025-04-20"
+  },
+  {
+    "id": 7,
+    "title": "Service Motor",
+    "nominal": 120000,
+    "type": "expense",
+    "category": "transport",
+    "date": "2025-04-20"
   }
 ]

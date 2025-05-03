@@ -27,6 +27,8 @@ UPDATE event_commerce SET title = "Beli Bensin", nominal = 15000, date = "2024-0
 
 DELETE FROM event_commerce WHERE id = 2;
 
+SELECT * FROM event_commerce;
+
 SELECT * FROM event_commerce WHERE id = 2;
 
 SELECT * FROM event_commerce ORDER BY nominal ASC;

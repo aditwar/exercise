@@ -1,4 +1,4 @@
-// HANYA TERHUBUNG KE JSON SERVER "./apps/data"
+// HANYA TERHUBUNG KE JSON SERVER pada file users.json './src/data'
 
 import { Request, Response } from 'express'
 import { IUser } from "../type";

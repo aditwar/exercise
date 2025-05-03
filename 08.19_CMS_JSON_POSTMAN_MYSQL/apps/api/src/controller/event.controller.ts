@@ -1,4 +1,4 @@
-// HANYA TERHUBUNG KE POSTMAN
+// HANYA TERHUBUNG KE POSTMAN pada file event.json './src/data'
 
 import { Request, Response } from 'express'
 import { IEvent } from '../type';
