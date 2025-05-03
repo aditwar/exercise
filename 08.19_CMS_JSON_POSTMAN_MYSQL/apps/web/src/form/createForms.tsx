@@ -20,6 +20,7 @@ interface FormValue {
 }
 
 export default function CreateForms() {
+    const dbname = process.env.NEXT_PUBLIC_BASE_API_URL;
     const initialValues: FormValue = { name: '', price: 0 };
 
     // Handle create function ini datanya interaktif "async", sehingga pakai React Hook
@@ -27,12 +28,12 @@ export default function CreateForms() {
         try {
 
             //! PERHATIKAN INI URL BACKEND (.env.local) untuk dikirim ke server samakan URL API
-            const res = await fetch('http://localhost:1000/events', {
-                method: 'POST', // POST karena mau nambahi data
-                headers: {
-                    'Content-Type': 'application/json',
-                }, // Ensure content-type is specified
-                body: JSON.stringify(data), // ngirim body ini yang tipe datanya JSON yang diubah ke STRING
+            const res = await fetch(`${dbname}`, {
+              method: 'POST', // POST karena mau nambahi data
+              headers: {
+                'Content-Type': 'application/json',
+              }, // Ensure content-type is specified
+              body: JSON.stringify(data), // ngirim body ini yang tipe datanya JSON yang diubah ke STRING
             });
 
             // Handle errors

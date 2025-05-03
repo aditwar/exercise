@@ -2,39 +2,39 @@ import { IEvent } from "@/app/type";
 
 // ini biar saat FETCH DATA yang tampil DETAIL USER yg diambil dari JSON SERVER (INTERAKTIF)
 async function getData(id: string) {
+  const dbname = process.env.NEXT_PUBLIC_BASE_API_URL;
 
-    //! PERHATIKAN INI URL BACKEND (.env.local) alamat dari JSON SERVER menggunakan BACKTIK
-    const res = await fetch(`http://localhost:1000/events/${id}`, {
-        // ini biar data yg ditampilkan OTO terbaruhi CACHING, jika diubah oleh user (User on Demand)
-        next: { tags: ["users"] }
-    })
+  //! PERHATIKAN INI URL BACKEND (.env.local) alamat dari JSON SERVER menggunakan BACKTIK
+  const res = await fetch(`${dbname}/${id}`, {
+    // ini biar data yg ditampilkan OTO terbaruhi CACHING, jika diubah oleh user (User on Demand)
+    next: { tags: ['users'] },
+  });
 
-    // ini untuk menangkap ERROR
-    if (!res.ok) {
-        throw new Error ('Failed to fetch data')
-    }
+  // ini untuk menangkap ERROR
+  if (!res.ok) {
+      throw new Error ('Failed to fetch data')
+  }
 
-    return res.json()
+  return res.json()
 }
 
 //! ini untuk DYNAMIC META DATA
-export async function generateMetadata(props: { params: { id: string } }) {
-    const { id } = await props.params;
-    const data: IEvent = await getData(id);
+export async function generateMetadata({ params: { id } }: { params: { id: string } }) {
+  
+  const data: IEvent = await getData(id);
 
   return {
     title: `Event Commerce | Event ${data.name}`,
-    description: 'Detail Event ${data.name}',
+    description: `Detail Event ${data.name}`,
   };
 }
 
-export default async function EventDetailPage(props: { params: { id: string } }) {
+export default async function EventDetailPage({ params: { id } }: { params: { id: string } }) {
   // id ini sesuaikan nama folder nya [id]
   // { params } merupakan parameter ini untuk menangkap [id] yg DYNAMIC
   // { params }: { params } itu merupakan tipe data dari { params } berupa OBJ
   // { params }: { params:{id: string} } itu merupakan tipe dari params berupa nama yg merupakan string
-    const { id } = await props.params;
-    const data: IEvent = await getData(id);
+  const data: IEvent = await getData(id);
 
   return (
     <div>

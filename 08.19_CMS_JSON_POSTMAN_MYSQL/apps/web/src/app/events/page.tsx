@@ -13,12 +13,13 @@ export const metadata: Metadata = {
 
 // FUNCTION untuk FETCHING (GET) DATA dri SERVER menggunakan async untuk ditampilkan di UI UX
 async function getData() {
+    const dbname = process.env.NEXT_PUBLIC_BASE_API_URL;
 
     //! PERHATIKAN INI URL BACKEND (.env.local), Ini alamat untuk dikirim dari JSON SERVER
-    const res = await fetch("http://localhost:1000/events", {
-        // ini biar data yg ditampilkan OTO terbaruhi CACHING, jika diubah oleh user (User on Demand) FIX
-        next: { tags: ["users"] }
-    })
+    const res = await fetch(`${dbname}`, {
+      // ini biar data yg ditampilkan OTO terbaruhi CACHING, jika diubah oleh user (User on Demand) FIX
+      next: { tags: ['users'] },
+    });
 
     // ini untuk menangkap ERROR
     if (!res.ok) {
