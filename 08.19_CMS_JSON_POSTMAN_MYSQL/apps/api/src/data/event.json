@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Beli Bensin",
+    "nominal": 10000,
+    "type": "expense",
+    "category": "transport",
+    "date": "2024-08-01"
+  },
+  {
+    "id": 2,
+    "title": "Beli Nasi Padang",
+    "nominal": 15000,
+    "type": "expense",
+    "category": "food",
+    "date": "2024-08-20"
+  },
+  {
+    "id": 4,
+    "title": "Gaji Bulan Kemarin",
+    "nominal": 5000000,
+    "type": "income",
+    "category": "salary",
+    "date": "2024-08-19"
+  },
+  {
+    "id": 5,
+    "title": "Jangan Beli Capjay Madun",
+    "nominal": 30000,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-04-25"
+  },
+  {
+    "id": 6,
+    "title": "Beli Bensin",
+    "nominal": 65000,
+    "type": "expense",
+    "category": "transport",
+    "date": "2025-04-20"
+  }
+]
