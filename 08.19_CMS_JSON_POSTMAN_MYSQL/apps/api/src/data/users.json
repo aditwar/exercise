@@ -1,26 +1,8 @@
 [
-    {
-        "id": 1,
-        "name": "Anton",
-        "email": "anton@gmail.com",
-        "age": 21
-    },
-    {
-        "id": 2,
-        "name": "Anita",
-        "email": "anita@gmail.com",
-        "age": 30
-    },
-    {
-        "id": 3,
-        "name": "Andy",
-        "email": "andi@gmail.com",
-        "age": 40
-    },
-    {
-        "id": 4,
-        "name": "Bagas",
-        "email": "bagas@gmail.com",
-        "age": 45
-    }    
+  { "id": 1, "name": "Anton", "email": "anton@gmail.com", "age": 21 },
+  { "id": 2, "name": "Anita", "email": "anita@gmail.com", "age": 30 },
+  { "id": 3, "name": "Andy", "email": "andi@gmail.com", "age": 40 },
+  { "id": 4, "name": "Bagas", "email": "bagas@gmail.com", "age": 45 },
+  { "id": 5, "name": "Gembul", "email": "gembul@gmail.com", "age": 30 },
+  { "id": 6, "name": "inul", "email": "inul@gmail.com", "age": 34 }
 ]

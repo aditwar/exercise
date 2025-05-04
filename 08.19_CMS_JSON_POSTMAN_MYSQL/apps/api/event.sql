@@ -20,8 +20,10 @@ MODIFY COLUMN category ENUM("food", "transport", "salary") NOT NULL;
 
 INSERT INTO event_commerce(title, type, category, nominal, date)
 VALUES
-	('Beli Kopi', 'expense', 'food', 12000, '2025-05-20'),
-    ('Service Motor', 'expense', 'transport', 120000, '2025-05-05');
+	('Breakfast', 'expense', 'food', 25000, '2025-05-03'),
+    ('Beli Oli', 'expense', 'transport', 60000, '2025-04-10');
+
+UPDATE event_commerce SET title = "Service Motor", nominal = 50000 WHERE id = 14;
 
 UPDATE event_commerce SET title = "Beli Bensin", nominal = 15000, date = "2024-08-10" WHERE id = 2;
 

@@ -54,6 +54,6 @@ export const createUser = (req: Request, res: Response) => {
 
     res.status(200).send({
         status: 'ok',
-        msg: "user ditambahkan yaa"
+        msg: "SELAMAT! BERHASIL CREATE PAKAI JSON SERVER"
     })
 }
