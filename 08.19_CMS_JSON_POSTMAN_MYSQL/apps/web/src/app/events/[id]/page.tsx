@@ -2,8 +2,11 @@ import { IEvent } from '@/app/type';
 
 // ini biar saat FETCH DATA yang tampil DETAIL USER yg diambil dari JSON SERVER (INTERAKTIF)
 async function getData(id: string) {
-  //! PERHATIKAN INI URL BACKEND (.env.local) alamat dari JSON SERVER menggunakan BACKTIK
+
+  //! PERHATIKAN INI URL BACKEND (.env) alamat dari JSON SERVER menggunakan BACKTIK
+  //  process.env.NEXT_PUBLIC_BASE_API_URL = mengarah ke file .env
   const res = await fetch(`http://localhost:1000/events/${id}`, {
+
     // ini biar data yg ditampilkan OTO terbaruhi CACHING, jika diubah oleh user (User on Demand)
     next: { tags: ['users'] },
   });
