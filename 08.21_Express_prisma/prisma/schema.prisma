@@ -14,11 +14,15 @@ datasource db {
 }
 
 model Author {
+  // Int: Typedata, @id: PrimaryKey, @default: secara default itu autoincrement
   id        Int      @id @default(autoincrement())
-  name      String
+  // @unique itu harus UNIK
+  name      String   @unique
   email     String   @unique
   password  String
+  // Photoprofile, dan ?: tidak wajib diisi
   avatar    String?
+  // Biar tau dibuat kapan dan terakhir update kapan
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
