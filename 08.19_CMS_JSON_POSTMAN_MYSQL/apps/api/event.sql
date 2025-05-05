@@ -54,7 +54,3 @@ SELECT type, avg(nominal) FROM event_commerce WHERE type = "expense";
 
 SELECT DISTINCT title FROM event_commerce;
 
-
-
-
-
