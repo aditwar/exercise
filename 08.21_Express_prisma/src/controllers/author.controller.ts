@@ -31,7 +31,7 @@ export class AuthorController {
             })
 
             // jika ID nya tidak ada di database
-            if (!author) throw 'ID Author tidak ditemukan'
+            if (!author) throw 'MAAF! ID Author tidak ditemukan'
 
             res.status(200).send({
               status: 'ok',
@@ -80,7 +80,7 @@ export class AuthorController {
             })
 
             // jika ID nya tidak ada di database
-            if (!author) throw 'ID Author tidak ditemukan'
+            if (!author) throw 'MAAF! ID Author tidak ditemukan'
 
             res.status(200).send({
               status: 'ok',
@@ -103,7 +103,7 @@ export class AuthorController {
             })
             
             // jika ID nya tidak ada di database
-            if (!author) throw 'ID Author tidak ditemukan'
+            if (!author) throw 'MAAF! ID Author tidak ditemukan'
 
             res.status(200).send({
               status: 'ok',
