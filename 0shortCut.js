@@ -1,25 +1,39 @@
 // SHORTCUT
 
 ///! EXTENTION BETTER COMMENTS
-    /**
+/**
      * GUNAKAN SEPERTI /** UNTUK MEMULAI
      * ! MEMBERI WARNA MERAH
      * ? MEMBERI WARNA BIRU
      * todo: MEMBERI STEPS BY STEPS
 
 /*
-    SELECT SAME NAME        => CTRL   + D
-    SELECT WORD BY WORD     => CTRL   + SHIFT   + ARROW LEFT RIGHT
-    SELECT LINE             => CTRL   + L
-    SELECT YOU WANT         => ALT    + KURSOR
-    MENGCOPY SATU BARIS     => SHIFT  + ALT + ARROW UP DOWN
-    MOVE ONE LINE           => ALT    + ARROW
-    CUT ONE LINE            => CTRL   + X
-    OPEN COMMAND            => CTRL   + P
-    SEARCH                  => CTRL   + F
-    SEARCH                  => OPEN SEARCH + #
-    SEARCH FILE             => CTRL   + SHIFT   + .
-    AUTO FIX                => SHIFT  + ALT + ,
+    MOVE ONE LINE           => ALT      + ARROW
+    SELECT WHERE EVER       => ALT      + CLICK
+    SELECT SAME NAME        => CTRL     + D
+    SELECT WORD BY WORD     => CTRL     + SHIFT     + ARROW LEFT RIGHT
+    SELECT LINE             => SHIFT    + ALT       + ARROW RIGHT
+    SELECT WORD BY ITS WORD => CTRL     + SHIFT     + L
+    SELECT YOU WANT         => ALT      + KURSOR
+    ADD LINE DOWN           => CTRL     + ENTER
+    ADD LINE UP             => CTRL     + SHIFT     + ENTER
+    CUT ONE LINE            => CTRL     + X
+    Go to FILE              => CTRL     + P
+    Go to LINE              => CTRL     + G
+    SEARCH IN THIS FILE     => CTRL     + F
+    REPLACE IN THIS FILE    => CTRL     + H
+    SEARCH                  => CTRL     + SHIFT     + F
+    SEARCH FILE             => CTRL     + SHIFT     + .
+    AUTO FIX                => SHIFT    + ALT       + ,
+    FOLD FUNCTION           => CTRL     + SHIFT     + [
+    UNFOLD FUNCTION         => CTRL     + SHIFT     + ]
+    SPLIT EDITOR            => CTRL     + \
+    TOGGLE WORD WRAP        => ALT      + Z
+
+    ///! REACT SHORTCUT
+    REACT FUNCTION EXPORT   => rfce
+    REACT FUNCTION NAME     => enf
+    IMPORT BROWSER ROUTER   => imrr
 
     ///! TERMINAL    
     OPEN CLOSE TERMINAL     => CTRL   + J
@@ -40,4 +54,3 @@
      *                      => pada WEBSITE klik CODE > OPEN WITH GITHUB DESKTOP
 
 */
-
