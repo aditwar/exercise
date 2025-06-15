@@ -31,6 +31,7 @@
     TOGGLE WORD WRAP        => ALT      + Z
 
     ///! REACT SHORTCUT
+    REACT ARROW FUNCTION    => rafce
     REACT FUNCTION EXPORT   => rfce
     REACT FUNCTION NAME     => enf
     IMPORT BROWSER ROUTER   => imrr
